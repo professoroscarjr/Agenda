@@ -24,6 +24,4 @@ self.addEventListener('fetch', event => {
                 return response || fetch(event.request);
             })
     );
-
 });
-
