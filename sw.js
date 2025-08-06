@@ -3,7 +3,9 @@ const urlsToCache = [
     '/',
     '/index.html',
     '/style.css',
-    '/manifest.json'
+    '/manifest.json',
+    '/icons/icon-192x192.png',
+    '/icons/icon-512x512.png'
 ];
 
 self.addEventListener('install', event => {
@@ -24,3 +26,4 @@ self.addEventListener('fetch', event => {
     );
 
 });
+
